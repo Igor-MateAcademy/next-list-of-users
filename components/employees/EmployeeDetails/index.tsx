@@ -8,7 +8,7 @@ import { useSWRConfig } from "swr";
 
 import { Box, Avatar, HStack, VStack } from "@chakra-ui/react";
 
-import { useUser, UserRequestKeys, deleteUser } from "fetchers";
+import { useUser, UserRequestKeys, deleteUser } from "fetchers/users";
 
 interface Props {
   id: string;

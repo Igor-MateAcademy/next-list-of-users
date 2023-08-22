@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 
 import { Card, CardHeader, CardBody, Heading, Box } from "@chakra-ui/react";
 
-import { useUsers } from "fetchers";
+import { useUsers } from "fetchers/users";
 
 import styles from "./styles.module.scss";
 
