@@ -1,7 +1,7 @@
 import useSwr from "swr";
 import { AxiosError } from "axios";
 
-import { User } from "models";
+import { User } from "models/user";
 
 import { api } from "utils/api";
 
